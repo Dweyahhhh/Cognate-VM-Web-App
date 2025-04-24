@@ -43,7 +43,6 @@ python3 app.py
 ```
 or using Flask CLI:
 
-
 ```bash
 export FLASK_APP=app.py
 flask run --host=0.0.0.0 --port=5000
@@ -53,8 +52,9 @@ flask run --host=0.0.0.0 --port=5000
 
 ```bash
 http://<your-ip>:5000
-Get your IP address using:
 ```
+Get your IP address using:
+
 ```bash
 hostname -I
 ```
@@ -65,19 +65,21 @@ hostname -I
 sudo apt install ufw -y
 sudo ufw allow 5000
 ```
-
+---
 ## 💌 Contact Page Features
-**Form validation ✅**
-**Fields: Name, Email, Message**
-**Cute submit message with 🥰 emojis**
-**Button to send again and return to home 🏠**
+- Form validation ✅
+- Fields: Name, Email, Message
+- Cute submit message with 🥰 emojis
+- Button to send again and return to home 🏠
+---
 
 🧁 Extras
-**🎀 Royale Blue buttons with hover effects**
-**🐣 Centered layout for a warm experience**
-**🧁 Rounded corners and soft shadows**
-**💡 Reflection**
+- 🎀 Royale Blue buttons with hover effects
+- 🐣 Centered layout for a warm experience
+- 🧁 Rounded corners and soft shadows
+- 💡 Reflection
 
+---
 ## Challenges Faced:
 During deployment, I encountered issues running certain commands like sudo apt install python3-pip and pip3 install flask django on my Lubuntu VM. The commands didn't work without using &&, which caused some confusion. Additionally, there was an error with the __name__ variable in my app.py, which was missing double underscores (__) causing an issue during execution. After fixing these issues, everything ran smoothly.
 
@@ -89,4 +91,4 @@ Flask was the easiest for me to use, especially since I’m already familiar wit
 
 ## Real-World Simulation:
 Deploying this app in a VM was a great way to simulate real-world cloud hosting. It gave me insight into how a web app can be hosted on a remote server, accessed via an IP address, and managed through commands in the terminal.
-
+---
